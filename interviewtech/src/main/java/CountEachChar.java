@@ -35,6 +35,8 @@ public class CountEachChar {
             else{
                 charCountMap.put(ch,1);
             }
+
+
         }
         System.out.println(a + " : " +charCountMap);
     }

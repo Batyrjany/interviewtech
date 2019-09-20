@@ -28,12 +28,11 @@ public class FindDuplicatedInteger {
 
         String str = String.valueOf(n);
          char[] ch = str.toCharArray();
-
          int l= ch.length;
          int count =0;
       Set<Character> characters = new HashSet<>();
         for (int i = 0; i < l-1; i++) {
-            for (int j = 0; j <l-1 ; j++) {
+            for (int j = 0; j <l; j++) {
 
                 if(i!=j) {
                     if (ch[i] == ch[j]) {
